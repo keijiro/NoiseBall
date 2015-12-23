@@ -25,7 +25,7 @@ namespace NoiseBall
         float _noiseMotion = 0.2f;
 
         [Space]
-        [SerializeField, ColorUsage(false, true, 0, 8, 0.124f, 3)]
+        [SerializeField, ColorUsage(false, true, 0, 8, 0.125f, 3)]
         Color _lineColor = Color.white;
 
         [SerializeField, ColorUsage(false)]
