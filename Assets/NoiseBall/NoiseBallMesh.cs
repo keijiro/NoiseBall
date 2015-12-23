@@ -90,6 +90,9 @@ namespace NoiseBall
             _mesh.SetIndices(iarray, MeshTopology.Lines, 1);
 
             _mesh.bounds = new Bounds(Vector3.zero, Vector3.one * 10);
+
+            _mesh.Optimize();
+            _mesh.UploadMeshData(true);
         }
 
         #endregion
